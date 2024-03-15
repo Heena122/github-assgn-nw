@@ -20,3 +20,9 @@ jobs:
       # You can test your matrix by printing the current Python version
       - name: Display Python version
         run: python -c "import sys; print(sys.version)"
+jobs:
+  build1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: python ..
+      - run: echo "hii...."
