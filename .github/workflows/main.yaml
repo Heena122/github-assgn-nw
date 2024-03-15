@@ -24,5 +24,4 @@ jobs:
     steps:
       - name: pythontext
         run: echo "hii everyone
-   env:
-        ANOTHER_VARIABLE: 'another_value'
+        run: echo "My environment variable is $MY_VARIABLE"
