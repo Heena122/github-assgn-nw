@@ -25,4 +25,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: python ..
-      - run: echo "hii...."
+        run: echo "hii...."
