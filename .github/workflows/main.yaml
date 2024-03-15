@@ -19,6 +19,10 @@ jobs:
 
   build1:
     runs-on: ubuntu-latest
+    env:
+      MY_VARIABLE: 'my_value'
     steps:
       - name: pythontext
-        run: echo "hii everyone"
+        run: echo "hii everyone
+   env:
+        ANOTHER_VARIABLE: 'another_value'
